@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="garden">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Binary Upload Boom</title>
+    <title>Workout App</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="icon"
       type="image/png"
@@ -25,11 +27,11 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body>
-    <header class="container">
-      <div class="text-center">
-        <h1 class=""><a href="/profile">Binary Upload Boom</a></h1>
-        <span>The #100Devs Social Network</span>
+  <body class="flex flex-col h-screen justify-between">
+    <header class="navbar bg-base-100">
+      <div class="flex-1">
+        <h1 ><a href="/profile" class="btn btn-accent normal-case text-xl mr-5 font-mono pt-2">Workout</a></h1>
+        <span class="font-mono">Upload Your Favorite Workouts</span>
       </div>
     </header>
   </body>
