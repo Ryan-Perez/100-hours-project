@@ -26,6 +26,14 @@ module.exports = {
       console.log(err);
     }
   },
+  getAddPost: async (req, res) => {
+    try {
+      res.render("addPost.ejs", { user: req.user });
+    } catch (err) {
+      console.log(err);
+    }
+  },
+
   createPost: async (req, res) => {
     try {
       // Upload image to cloudinary
